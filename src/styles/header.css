@@ -1,0 +1,21 @@
+.header {
+  background: var(--color-primary-more-dark);
+}
+.img {
+  height: 50px;
+}
+.navbar {
+  color: var(--color-primary-light);
+  display: grid;
+  font-size: 1.3em;
+  grid-template-columns: repeat(5,auto);
+  justify-self: center;  
+  padding:0 20% 5px 20%; 
+}
+.navbar>a{
+  color: var(--color-primary-light);
+  text-decoration: none;
+}
+.navbar>span{
+  user-select: none;
+}
